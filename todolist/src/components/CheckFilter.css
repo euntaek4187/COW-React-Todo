@@ -1,0 +1,30 @@
+.back3{
+    position: fixed;
+    margin: 0 auto;
+    z-index: 1100;
+    top: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5e5e5e;
+    opacity: 0.8;
+    right: 0px;
+}
+
+.checkbox {
+    position: fixed;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    z-index: 1200;
+    box-shadow: 1px 2px 5px 1px #53ffff;
+    width: 500px;
+    height: 200px;
+    background: #e8fff5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

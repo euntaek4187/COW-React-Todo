@@ -1,0 +1,59 @@
+
+.background {
+    position: fixed;
+    margin: 0 auto;
+    z-index: 980;
+    top: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5e5e5e;
+    opacity: 0.8;
+    right: 0px;
+}
+
+form {
+    position: fixed;
+    transform:  translate(-50%, 0);
+    left: 50%;
+    right: 0;
+
+    top: 400px;
+    right: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 990;
+    width: 600px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px #53ffff;
+    background: rgb(226, 255, 243);
+}
+form > input {
+    font-size: 40px;
+    border-radius: 2px;
+    background-color: rgb(216, 216, 216);
+    border: none;
+    box-shadow: 1px 2px 5px 1px #888888;
+    border-bottom: 1px solid #888888;
+    
+}
+
+form > button {
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 40px;
+}
+
+.rewrite > svg {
+    position: relative;
+    padding-left: 5px;
+    left: 10px;
+    font-size: 25px;
+}

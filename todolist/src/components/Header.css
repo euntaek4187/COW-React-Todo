@@ -1,0 +1,26 @@
+.template {
+    position: relative;
+    top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 700;
+    color: rgba(70, 255, 116, 0.7);
+}
+
+.full-list {
+    font-size: 30px;
+  border-radius: 10px;
+  position: relative;
+  left: 0px;
+  top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(29, 104, 26, 0.7);
+    background: #e0ffdf;
+}
